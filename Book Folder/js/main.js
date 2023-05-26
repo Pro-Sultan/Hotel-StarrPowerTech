@@ -67,13 +67,16 @@ $(function(){
         if (text== "Queens Room") {
             document.querySelector(".price").innerHTML= "$20";
             document.querySelector(".total").innerHTML = "$110";
+            document.querySelector(".sub").innerHTML = "$100";
         } else if(text== "Special Room"){
             document.querySelector(".price").innerHTML= "$40";
             document.querySelector(".total").innerHTML= "$130";
+            document.querySelector(".sub").innerHTML = "$120";
         }
         else{
             document.querySelector(".price").innerHTML= "$60";
             document.querySelector(".total").innerHTML= "$150";
+            document.querySelector(".sub").innerHTML = "$140";
         }
     }) 
 
